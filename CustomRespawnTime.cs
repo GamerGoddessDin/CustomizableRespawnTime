@@ -16,6 +16,10 @@ namespace CustomRespawnTime
 				AutoloadSounds = true
 			};
 		}
+		public override void Load()
+		{
+			Config.Load();
+		}
 	}
 	public class CustomRespawnTimePlayer : ModPlayer
 	{
@@ -38,9 +42,5 @@ namespace CustomRespawnTime
 				player.respawnTimer = (int)(player.respawnTimer * Config.RespawnMultiplier);
 			}
 		}
-	}
-	public override void Load()
-	{
-		Config.Load();
 	}
 }

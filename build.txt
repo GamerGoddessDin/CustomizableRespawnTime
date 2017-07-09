@@ -1,5 +1,5 @@
 author = OnyxSteel
-version = 0.01.25
+version = 0.76.75
 displayName = Customizable Respawn Time
 homepage = https://forums.terraria.org/index.php?posts/1411029
 hideCode = false

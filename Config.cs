@@ -11,8 +11,8 @@ namespace CustomRespawnTime
         public static bool UseOnyxSteelPref = true;
 		public static bool UsePresetTime = false;
 		public static bool UseMultiplier = false;
-        public static float RespawnSeconds = 10.0;
-		public static float RespawnMultiplier = 0.33;
+        public static double RespawnSeconds = 10.0;
+		public static double RespawnMultiplier = 0.33;
 
         //The file will be stored in "Terraria/ModLoader/Mod Configs/CustomRespawnTime.json"
         static string ConfigPath = Path.Combine(Main.SavePath, "Mod Configs", "CustomRespawnTime.json");
