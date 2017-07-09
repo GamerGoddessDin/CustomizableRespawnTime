@@ -1,0 +1,9 @@
+author = OnyxSteel
+version = 0.01.25
+displayName = Customizable Respawn Time
+homepage = https://forums.terraria.org/index.php?posts/1411029
+hideCode = false
+hideResources = false
+includeSource = true
+buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*
+includePDB = true
